@@ -1,58 +1,12 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/bianqian/bianqian",
-    "pages/ledger/ledger",
-    "pages/mine/mine"
-    
+    "pages/bianqian/bianqian"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#DCDCDC",
-    "navigationBarTitleText": "柠檬手账",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "登录",
     "navigationBarTextStyle": "black"
-  },
-
-"tabBar": {
-  "color": "black",
-  "selectedColor": "#5F9EA0",
-  "borderStyle": "black",
-  "backgroundColor": "#DCDCDC",
-  "position": "bottom",
-  "list": [
-    {
-      "pagePath": "pages/index/index",
-      "text": "首页",
-      "color": "black",
-      "iconPath": "images/tab_home.png",
-      "selectedIconPath": "images/tab_home_selected.png"
-          
-    },
-    
-    {
-      "pagePath": "pages/ledger/ledger",
-      "text": "手账",
-      "color": "black",
-      "iconPath": "images/compose.png",
-      "selectedIconPath": "images/composeHL.png"
-                
-    },
-    {
-      "pagePath": "pages/bianqian/bianqian",
-      "text": "便签",
-      "color": "black",
-      "iconPath": "images/more.png",
-      "selectedIconPath": "images/moreHL.png"
-    },
-    {
-      "pagePath": "pages/mine/mine",
-      "text": "我的",
-      "color": "black",
-      "iconPath": "images/mine.png",
-      "selectedIconPath": "images/mineHL.png"
-    }
-  ]
-},
-"style": "v2",
-"sitemapLocation": "sitemap.json"
+  }
 }

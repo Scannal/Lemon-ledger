@@ -1,16 +1,4 @@
 /* pages/bianqian/bianqian.wxss */
-.background{
-  width: 100%;
-  height: 105%;
-  position:fixed; 
-  top: -6rpx;
-  left:-1rpx;
-  background-size:100% 100%;
-  z-index: -1;
-  
-  
-}
- 
 .list-view{
   margin:20px 0 0 0;
 }
@@ -21,17 +9,15 @@
 }
 .msg-box{
   padding: 20px;
+
 }
 .msg-info{
   display:block;
-  margin-top: 20rpx;
-  margin-left: 30rpx;
+  margin:10px 0 0 0;
   color:#ccc;
 }
 .send-box{
   display:flex;
-  margin-top: 500rpx;
-  margin-left: 30rpx;
 }
 .item{
   border-bottom: 1px dashed #ccc;

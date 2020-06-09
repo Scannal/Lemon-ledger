@@ -2,7 +2,7 @@
 const app = getApp()
 Page({
   data: {
-  
+    motto: '打开你记忆的大门',
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
